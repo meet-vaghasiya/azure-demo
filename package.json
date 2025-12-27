@@ -7,7 +7,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs",
+    "lint": "echo 'Add linting when needed'",
+    "test": "echo 'Add tests when needed'",
+    "deploy:setup": "pwsh ./deploy/azure-setup.ps1"
   },
   "dependencies": {
     "nuxt": "^4.2.2",
